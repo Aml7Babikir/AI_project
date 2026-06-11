@@ -34,13 +34,27 @@
 
 | Scenario | Impact on Margin | Response |
 |----------|-----------------|----------|
-| Inference costs 3x | | |
-| Heaviest segment doubles | | |
-| Model provider raises prices 50% | | |
+| Inference costs 3x | AI COGS increase from ~$9/user to ~$21/user. Gross margin drops from ~89% to ~73% on Pro plan. | Increase use of model routing, caching, and prompt optimization. Pass a portion of the cost increase to new customers. |
+| Heaviest segment doubles | Power users consume disproportionate compute, reducing margins on fixed-price plans. | Introduce usage caps, AI credits, or premium tiers for high-volume users. |
+| Model provider raises prices 50% | AI COGS increase from ~$9/user to ~$13.5/user. Margin compression across all plans. | Multi-model strategy, negotiate enterprise pricing, and shift workloads to alternative providers. |
 
 ## Board One-Pager
 <!-- Before/After: Old SaaS revenue vs. AI usage revenue for your product -->
 
 **Before (traditional SaaS):**
+- Fixed monthly subscription.
+- Value tied to features and seats.
+- Limited personalization.
+- Revenue growth driven by customer acquisition and seat expansion.
+
 **After (AI-enabled):**
+- Subscription + AI-powered workflows.
+- Personalized recommendations improve with usage.
+- Higher engagement and retention through continuous learning.
+- Opportunity for premium AI tiers, usage-based pricing, and enterprise packages.
+
 **Net margin shift:**
+- Gross margins decrease slightly due to AI serving costs (90%+ → ~80–85%).
+- Revenue per customer increases through premium AI capabilities.
+- Higher retention and expansion revenue offset increased AI costs.
+- Overall business value increases through data flywheels and differentiated AI experiences.
