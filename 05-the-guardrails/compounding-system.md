@@ -47,23 +47,104 @@ Current context connectivity is strongest within individual merchant environment
 
 ## Governance Policy
 
-**Scope:**
-**Autonomy boundaries:**
-**Escalation triggers:**
-**Audit cadence:**
-**Regulatory exposure (EU AI Act / other):**
+**Scope:**  
+Menza AI provides operational insights, recommendations, diagnostics, and workflow assistance for restaurant operators. The system can analyze business data and suggest actions but does not independently execute high-impact business changes.
+
+**Autonomy boundaries:**  
+- Can analyze data and generate recommendations.
+- Can answer operational and business questions.
+- Can draft actions and workflows for user approval.
+- Cannot modify pricing, financial settings, inventory levels, payroll, or customer-facing operations without explicit user approval.
+- Cannot perform irreversible actions autonomously.
+
+**Escalation triggers:**  
+- Financial impact exceeds predefined thresholds.
+- AI confidence falls below acceptable levels.
+- Recommendations conflict with historical business patterns.
+- Sensitive customer or employee data is involved.
+- Regulatory or compliance-related decisions are requested.
+
+**Audit cadence:**  
+- Weekly review of AI-generated recommendations.
+- Monthly evaluation of model quality and hallucination rates.
+- Quarterly governance and compliance review.
+- Annual security and data privacy assessment.
+
+**Regulatory exposure (EU AI Act / other):**  
+- Low to Medium Risk.
+- Primarily a business operations copilot.
+- Requires transparency that outputs are AI-generated.
+- Requires audit logging and human oversight for business-critical decisions.
+- Subject to data privacy regulations (GDPR, local privacy laws) where applicable.
+
+---
 
 ## Agent Topology
-<!-- If using agents: what can each agent do? What can't it do? Who approves what? -->
+
+### Operations Analyst Agent
+**Can do:**
+- Analyze restaurant performance.
+- Identify trends and anomalies.
+- Generate operational insights.
+
+**Cannot do:**
+- Execute operational changes.
+- Modify business configurations.
+
+---
+
+### Recommendation Agent
+**Can do:**
+- Recommend actions to improve sales, margins, labor efficiency, and customer retention.
+- Prioritize opportunities.
+
+**Cannot do:**
+- Automatically implement recommendations.
+
+---
+
+### Knowledge Agent
+**Can do:**
+- Answer product, operational, and training-related questions.
+- Surface best practices and documentation.
+
+**Cannot do:**
+- Create or modify source-of-truth content.
+
+---
+
+### Workflow Agent
+**Can do:**
+- Draft workflows and action plans.
+- Prepare configuration changes for approval.
+
+**Cannot do:**
+- Publish or execute changes without approval.
+
+---
+
+### Human Approval Layer
+
+**Approves:**
+- Financial changes.
+- Operational changes.
+- Configuration updates.
+- Customer-facing actions.
+- High-impact recommendations.
+
+---
 
 ## Shadow AI Audit
 
 | Tool | Owner | Risk Level | Decision |
-|------|-------|-----------|----------|
-| | | H / M / L | keep / govern / kill |
-| | | H / M / L | keep / govern / kill |
-| | | H / M / L | keep / govern / kill |
+|--------|--------|-----------|----------|
+| ChatGPT | Individual employees | M | govern |
+| Claude | Individual employees | M | govern |
+| Gemini | Individual employees | L | keep |
 
-**Total tools found:**
-**Tools after triage:**
-**Estimated hidden spend:**
+**Total tools found:** 3
+
+**Tools after triage:** 3
+
+**Estimated hidden spend:**  
+$200–$500/month during early-stage adoption across product, operations, support, and leadership teams.
