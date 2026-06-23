@@ -1,0 +1,109 @@
+# Menza AI
+
+> Menza AI gives founders and business leaders an always-on AI analyst that proactively monitors their business, explains what is happening, and recommends actions, eliminating the need for manual reporting and reactive decision-making.
+
+---
+
+## Strategy at a Glance
+
+| Component | Module | Status | Key Artifact |
+|-----------|--------|--------|-------------|
+| **The Bet** | M1 | [x] | `01-the-bet/` |
+| **The Moat** | M2 | [ ] | `02-the-moat/` |
+| **The Margin** | M3 | [x] | `03-the-margin/` |
+| **The Contract** | M4 | [x] | `04-the-contract/` |
+| **The Guardrails** | M5 | [x] | `05-the-guardrails/` |
+| **The Pitch** | M6 | [x] | `06-the-pitch/` |
+
+---
+
+## The Bet (M1)
+
+**What we're building, for whom, why now.**
+
+- **Product:** Menza AI
+- **AI Value Archetype:** Oracle
+- **Vulnerability Scores:** Moat 4/5 · Data __/5 · Platform __/5
+- **Top Risk:** **Menza does not own the system of record. If major platforms embed proactive AI analytics directly into their products, Menza risks being squeezed into a feature rather than a platform.**
+- **Confidence:** _(add: H / M / L)_
+- **Prototype:** https://menzai-insight-engine.lovable.app
+- **Kill Criteria:** We would stop pursuing this direction if:
+
+→ Details: [`01-the-bet/`](01-the-bet/)
+
+---
+
+## The Moat (M2)
+
+**Why this won't get copied in 6 months.**
+
+- **Data Flywheel Score:**
+- **Weakest Loop:**
+- **Top Encroachment Threat:**
+- **Encroachment Defense:**
+- **Vendor Portability:** _(add: Ready / Partial / Locked)_
+
+→ Details: [`02-the-moat/`](02-the-moat/)
+
+---
+
+## The Margin (M3)
+
+**Will this make money or bleed it?**
+
+- **Gross Margin (current):**
+- **Gross Margin (AI-adjusted):**
+- **Pricing Model:** Hybrid (seat-based subscription with usage limits and premium AI credits for advanced workflows)
+- **Pricing Today → Tomorrow:** Free beta / prototype stage → $29/month (Individual), $79/month (Pro PM), $299/month (Team)
+- **Total AI COGS / unit:** $9.00
+- **Cascading Strategy:** Triage: GPT-4o Mini / Claude Haiku; frontier: GPT-5 / Claude Opus; ratio 80% triage model / 20% frontier model
+- **Net Margin Shift:** - Gross margins decrease slightly due to AI serving costs (90%+ → ~80–85%).
+- **Break-even at:**
+
+→ Details: [`03-the-margin/`](03-the-margin/)
+
+---
+
+## The Contract (M4)
+
+**Why users will trust a probabilistic system.**
+
+- **Reliability Target:**
+- **Golden Dataset:** 5 rows, __ adversarial
+- **Confidence UX:** show uncertainty / tiered confidence / human-in-loop trigger
+- **HITL Architecture:**
+- **Failure Mode Coverage:** *What failure mode did your partner find that you missed?*
+
+→ Details: [`04-the-contract/`](04-the-contract/)
+
+---
+
+## The Guardrails (M5)
+
+**What breaks when this scales — and what compounds.**
+
+- **Compounding System:** | Loop | Input | Output | Compounds? | Status | |------|-------|--------|-----------|--------| | Learning Loop | Merchant questions, searches, feature usage, support interactions | Improved knowledge base and more accura…
+- **Governance Posture:** Menza AI provides operational insights, recommendations, diagnostics, and workflow assistance for restaurant operators.…
+- **Autonomy Boundaries:** - Can analyze data and generate recommendations.
+- **Escalation Triggers:** - Financial impact exceeds predefined thresholds.
+- **Audit Cadence:** - Weekly review of AI-generated recommendations.
+- **Shadow AI Audit (user-side):** 3 workarounds found · 3 build candidates · adjacent spend $200–$500/month during early-stage adoption across product, operations, support, and leadership teams.
+- **Agent Boundaries:** ### Operations Analyst Agent **Can do:** - Analyze restaurant performance. - Identify trends and anomalies. - Generate operational insights.
+- **Regulatory Exposure:** - Low to Medium Risk.
+
+→ Details: [`05-the-guardrails/`](05-the-guardrails/)
+
+---
+
+## The Pitch (M6)
+
+**How you get this funded, shipped, and adopted.**
+
+- **Horizon 1 (Now):**
+- **Horizon 2 (Next):**
+- **Horizon 3 (Bet):**
+- **Board Narrative:** **The case:**
+- **Ask:** ## M1 Baseline vs. Now
+- **Key Strategic Change:**
+
+→ Details: [`06-the-pitch/`](06-the-pitch/)
